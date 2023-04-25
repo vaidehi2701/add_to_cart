@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Add To Cart',),
+      home: const MyHomePage(title: 'Add To Cart',),
       debugShowCheckedModeBanner: false,
     );
   }
