@@ -1,5 +1,4 @@
 import 'package:add_to_cart/add_to_cart_animation.dart';
-import 'package:add_to_cart/signup_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,19 +16,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: SignupScreen(),
+      home: MyHomePage(title: 'Add To Cart',),
       debugShowCheckedModeBanner: false,
     );
   }
 }
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(child: Text("Welcome")),
-    );
-  }
-}
